@@ -23,6 +23,12 @@ Partial Class PharmacyFrm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.HeaderPan = New System.Windows.Forms.Panel()
+        Me.NavPan = New System.Windows.Forms.Panel()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TotalPan = New System.Windows.Forms.Panel()
         Me.Panel7 = New System.Windows.Forms.Panel()
@@ -31,8 +37,19 @@ Partial Class PharmacyFrm
         Me.BodyPan = New System.Windows.Forms.Panel()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.ItemsPan = New System.Windows.Forms.Panel()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.ItemPan = New System.Windows.Forms.Panel()
         Me.itemLbl = New System.Windows.Forms.Label()
@@ -48,43 +65,26 @@ Partial Class PharmacyFrm
         Me.stock_quantity = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.NavPan = New System.Windows.Forms.Panel()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        'Me.HeaderPan.SuspendLayout()
-        Me.TotalPan.SuspendLayout()
-        Me.Panel7.SuspendLayout()
-        Me.BodyPan.SuspendLayout()
-        Me.Panel8.SuspendLayout()
-        Me.ItemsPan.SuspendLayout()
-        Me.ItemPan.SuspendLayout()
-        Me.calPan.SuspendLayout()
-        Me.Panel6.SuspendLayout()
-        Me.itemDetailsPan.SuspendLayout()
-        CType(Me.itemsDetailsDGV, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel2.SuspendLayout()
-        Me.Panel4.SuspendLayout()
-        Me.Panel9.SuspendLayout()
+        Me.HeaderPan.SuspendLayout()
         Me.NavPan.SuspendLayout()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TotalPan.SuspendLayout()
+        Me.Panel7.SuspendLayout()
+        Me.BodyPan.SuspendLayout()
+        Me.Panel8.SuspendLayout()
+        Me.ItemsPan.SuspendLayout()
+        Me.Panel9.SuspendLayout()
+        Me.Panel4.SuspendLayout()
+        Me.ItemPan.SuspendLayout()
+        Me.calPan.SuspendLayout()
+        Me.Panel6.SuspendLayout()
+        Me.itemDetailsPan.SuspendLayout()
+        CType(Me.itemsDetailsDGV, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'HeaderPan
@@ -98,6 +98,72 @@ Partial Class PharmacyFrm
         Me.HeaderPan.Name = "HeaderPan"
         Me.HeaderPan.Size = New System.Drawing.Size(1366, 113)
         Me.HeaderPan.TabIndex = 0
+        '
+        'NavPan
+        '
+        Me.NavPan.Controls.Add(Me.PictureBox6)
+        Me.NavPan.Controls.Add(Me.PictureBox5)
+        Me.NavPan.Controls.Add(Me.PictureBox4)
+        Me.NavPan.Controls.Add(Me.PictureBox3)
+        Me.NavPan.Controls.Add(Me.PictureBox2)
+        Me.NavPan.Dock = System.Windows.Forms.DockStyle.Right
+        Me.NavPan.Location = New System.Drawing.Point(732, 0)
+        Me.NavPan.Name = "NavPan"
+        Me.NavPan.Size = New System.Drawing.Size(632, 111)
+        Me.NavPan.TabIndex = 3
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox6.Location = New System.Drawing.Point(473, 11)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(109, 67)
+        Me.PictureBox6.TabIndex = 10
+        Me.PictureBox6.TabStop = False
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox5.Location = New System.Drawing.Point(358, 11)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(109, 67)
+        Me.PictureBox5.TabIndex = 9
+        Me.PictureBox5.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox4.Location = New System.Drawing.Point(243, 11)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(109, 67)
+        Me.PictureBox4.TabIndex = 8
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox3.Location = New System.Drawing.Point(128, 11)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(109, 67)
+        Me.PictureBox3.TabIndex = 7
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.AccessibleDescription = ""
+        Me.PictureBox2.BackgroundImage = Global.CBIS___ICPH.My.Resources.Resources.inventory_report_icon_1
+        Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox2.Location = New System.Drawing.Point(13, 11)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(109, 67)
+        Me.PictureBox2.TabIndex = 6
+        Me.PictureBox2.TabStop = False
+        Me.PictureBox2.Tag = ""
         '
         'Label5
         '
@@ -188,15 +254,110 @@ Partial Class PharmacyFrm
         Me.ItemsPan.Size = New System.Drawing.Size(928, 392)
         Me.ItemsPan.TabIndex = 0
         '
-        'TextBox2
+        'Panel9
         '
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox2.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(131, 92)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(215, 57)
-        Me.TextBox2.TabIndex = 4
+        Me.Panel9.BackColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(189, Byte), Integer), CType(CType(95, Byte), Integer))
+        Me.Panel9.Controls.Add(Me.Label11)
+        Me.Panel9.Controls.Add(Me.Label10)
+        Me.Panel9.Controls.Add(Me.Label8)
+        Me.Panel9.Controls.Add(Me.Label9)
+        Me.Panel9.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Panel9.Location = New System.Drawing.Point(393, 43)
+        Me.Panel9.Name = "Panel9"
+        Me.Panel9.Size = New System.Drawing.Size(533, 347)
+        Me.Panel9.TabIndex = 11
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label11.Location = New System.Drawing.Point(130, 67)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(36, 24)
+        Me.Label11.TabIndex = 8
+        Me.Label11.Text = "00"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label10.Location = New System.Drawing.Point(19, 67)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(97, 24)
+        Me.Label10.TabIndex = 7
+        Me.Label10.Text = "PRICE ="
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label8.Location = New System.Drawing.Point(21, 25)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(120, 24)
+        Me.Label8.TabIndex = 5
+        Me.Label8.Text = "STOCKS ="
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label9.Location = New System.Drawing.Point(147, 25)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(36, 24)
+        Me.Label9.TabIndex = 6
+        Me.Label9.Text = "00"
+        '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(189, Byte), Integer), CType(CType(95, Byte), Integer))
+        Me.Panel4.Controls.Add(Me.Button2)
+        Me.Panel4.Controls.Add(Me.Label12)
+        Me.Panel4.Controls.Add(Me.TextBox3)
+        Me.Panel4.Controls.Add(Me.Label6)
+        Me.Panel4.Controls.Add(Me.Button1)
+        Me.Panel4.Controls.Add(Me.TextBox1)
+        Me.Panel4.Controls.Add(Me.TextBox2)
+        Me.Panel4.Controls.Add(Me.Label7)
+        Me.Panel4.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Panel4.Location = New System.Drawing.Point(0, 43)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(364, 347)
+        Me.Panel4.TabIndex = 10
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.White
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Button2.Location = New System.Drawing.Point(164, 213)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(99, 44)
+        Me.Button2.TabIndex = 12
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label12.Location = New System.Drawing.Point(15, 166)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(103, 20)
+        Me.Label12.TabIndex = 11
+        Me.Label12.Text = "QUANTITY"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox3.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.Location = New System.Drawing.Point(131, 166)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(112, 27)
+        Me.TextBox3.TabIndex = 10
         '
         'Label6
         '
@@ -208,6 +369,36 @@ Partial Class PharmacyFrm
         Me.Label6.Size = New System.Drawing.Size(110, 20)
         Me.Label6.TabIndex = 1
         Me.Label6.Text = "ITEM CODE"
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.White
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Button1.Location = New System.Drawing.Point(69, 213)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(89, 44)
+        Me.Button1.TabIndex = 9
+        Me.Button1.UseVisualStyleBackColor = False
+        '
+        'TextBox1
+        '
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox1.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(131, 46)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(215, 27)
+        Me.TextBox1.TabIndex = 1
+        '
+        'TextBox2
+        '
+        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox2.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(131, 92)
+        Me.TextBox2.Multiline = True
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(215, 57)
+        Me.TextBox2.TabIndex = 4
         '
         'Label7
         '
@@ -268,9 +459,9 @@ Partial Class PharmacyFrm
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label4.Location = New System.Drawing.Point(12, 9)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(148, 24)
+        Me.Label4.Size = New System.Drawing.Size(122, 24)
         Me.Label4.TabIndex = 2
-        Me.Label4.Text = "CALCULATOR"
+        Me.Label4.Text = "REQUESTS"
         '
         'itemDetailsPan
         '
@@ -345,203 +536,6 @@ Partial Class PharmacyFrm
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "ITEM WINDOW"
         '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label8.Location = New System.Drawing.Point(21, 25)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(120, 24)
-        Me.Label8.TabIndex = 5
-        Me.Label8.Text = "STOCKS ="
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label9.Location = New System.Drawing.Point(147, 25)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(36, 24)
-        Me.Label9.TabIndex = 6
-        Me.Label9.Text = "00"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label10.Location = New System.Drawing.Point(19, 67)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(97, 24)
-        Me.Label10.TabIndex = 7
-        Me.Label10.Text = "PRICE ="
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label11.Location = New System.Drawing.Point(130, 67)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(36, 24)
-        Me.Label11.TabIndex = 8
-        Me.Label11.Text = "00"
-        '
-        'Panel4
-        '
-        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(189, Byte), Integer), CType(CType(95, Byte), Integer))
-        Me.Panel4.Controls.Add(Me.Button2)
-        Me.Panel4.Controls.Add(Me.Label12)
-        Me.Panel4.Controls.Add(Me.TextBox3)
-        Me.Panel4.Controls.Add(Me.Label6)
-        Me.Panel4.Controls.Add(Me.Button1)
-        Me.Panel4.Controls.Add(Me.TextBox1)
-        Me.Panel4.Controls.Add(Me.TextBox2)
-        Me.Panel4.Controls.Add(Me.Label7)
-        Me.Panel4.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Panel4.Location = New System.Drawing.Point(0, 43)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(364, 347)
-        Me.Panel4.TabIndex = 10
-        '
-        'Panel9
-        '
-        Me.Panel9.BackColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(189, Byte), Integer), CType(CType(95, Byte), Integer))
-        Me.Panel9.Controls.Add(Me.Label11)
-        Me.Panel9.Controls.Add(Me.Label10)
-        Me.Panel9.Controls.Add(Me.Label8)
-        Me.Panel9.Controls.Add(Me.Label9)
-        Me.Panel9.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel9.Location = New System.Drawing.Point(393, 43)
-        Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(533, 347)
-        Me.Panel9.TabIndex = 11
-        '
-        'NavPan
-        '
-        Me.NavPan.Controls.Add(Me.PictureBox6)
-        Me.NavPan.Controls.Add(Me.PictureBox5)
-        Me.NavPan.Controls.Add(Me.PictureBox4)
-        Me.NavPan.Controls.Add(Me.PictureBox3)
-        Me.NavPan.Controls.Add(Me.PictureBox2)
-        Me.NavPan.Dock = System.Windows.Forms.DockStyle.Right
-        Me.NavPan.Location = New System.Drawing.Point(732, 0)
-        Me.NavPan.Name = "NavPan"
-        Me.NavPan.Size = New System.Drawing.Size(632, 111)
-        Me.NavPan.TabIndex = 3
-        '
-        'TextBox1
-        '
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox1.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(131, 46)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(215, 27)
-        Me.TextBox1.TabIndex = 1
-        '
-        'TextBox3
-        '
-        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox3.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(131, 166)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(112, 27)
-        Me.TextBox3.TabIndex = 10
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label12.Location = New System.Drawing.Point(15, 166)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(103, 20)
-        Me.Label12.TabIndex = 11
-        Me.Label12.Text = "QUANTITY"
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.White
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        'Me.Button2.Image = Global.CBIS___ICPH.My.Resources.Resources.Awicons_Vista_Artistic_Delete
-        Me.Button2.Location = New System.Drawing.Point(164, 213)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(99, 44)
-        Me.Button2.TabIndex = 12
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.White
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        'Me.Button1.Image = Global.CBIS___ICPH.My.Resources.Resources.Kyo_Tux_Delikate_Add
-        Me.Button1.Location = New System.Drawing.Point(69, 213)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(89, 44)
-        Me.Button1.TabIndex = 9
-        Me.Button1.UseVisualStyleBackColor = False
-        '
-        'PictureBox6
-        '
-        'Me.PictureBox6.BackgroundImage = Global.CBIS___ICPH.My.Resources.Resources.inventory_report_icon_1
-        Me.PictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox6.Location = New System.Drawing.Point(473, 11)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(109, 67)
-        Me.PictureBox6.TabIndex = 10
-        Me.PictureBox6.TabStop = False
-        '
-        'PictureBox5
-        '
-        'Me.PictureBox5.BackgroundImage = Global.CBIS___ICPH.My.Resources.Resources.inventory_report_icon_1
-        Me.PictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox5.Location = New System.Drawing.Point(358, 11)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(109, 67)
-        Me.PictureBox5.TabIndex = 9
-        Me.PictureBox5.TabStop = False
-        '
-        'PictureBox4
-        '
-        'Me.PictureBox4.BackgroundImage = Global.CBIS___ICPH.My.Resources.Resources.inventory_report_icon_1
-        Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox4.Location = New System.Drawing.Point(243, 11)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(109, 67)
-        Me.PictureBox4.TabIndex = 8
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox3
-        '
-        'Me.PictureBox3.BackgroundImage = Global.CBIS___ICPH.My.Resources.Resources.inventory_report_icon_1
-        Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox3.Location = New System.Drawing.Point(128, 11)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(109, 67)
-        Me.PictureBox3.TabIndex = 7
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.AccessibleDescription = ""
-        'Me.PictureBox2.BackgroundImage = Global.CBIS___ICPH.My.Resources.Resources.inventory_report_icon_1
-        Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox2.Location = New System.Drawing.Point(13, 11)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(109, 67)
-        Me.PictureBox2.TabIndex = 6
-        Me.PictureBox2.TabStop = False
-        Me.PictureBox2.Tag = ""
-        '
         'PharmacyFrm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -556,6 +550,12 @@ Partial Class PharmacyFrm
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.HeaderPan.ResumeLayout(False)
         Me.HeaderPan.PerformLayout()
+        Me.NavPan.ResumeLayout(False)
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TotalPan.ResumeLayout(False)
         Me.TotalPan.PerformLayout()
         Me.Panel7.ResumeLayout(False)
@@ -563,6 +563,10 @@ Partial Class PharmacyFrm
         Me.BodyPan.ResumeLayout(False)
         Me.Panel8.ResumeLayout(False)
         Me.ItemsPan.ResumeLayout(False)
+        Me.Panel9.ResumeLayout(False)
+        Me.Panel9.PerformLayout()
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel4.PerformLayout()
         Me.ItemPan.ResumeLayout(False)
         Me.ItemPan.PerformLayout()
         Me.calPan.ResumeLayout(False)
@@ -572,16 +576,6 @@ Partial Class PharmacyFrm
         CType(Me.itemsDetailsDGV, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
-        Me.Panel4.ResumeLayout(False)
-        Me.Panel4.PerformLayout()
-        Me.Panel9.ResumeLayout(False)
-        Me.Panel9.PerformLayout()
-        Me.NavPan.ResumeLayout(False)
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
