@@ -73,6 +73,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ANTI-PIRACY-MODULE-BIATCH.vb" />
+    <Compile Include="Cashiering.Designer.vb">
+      <DependentUpon>Cashiering.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cashiering.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +129,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Cashiering.resx">
+      <DependentUpon>Cashiering.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>

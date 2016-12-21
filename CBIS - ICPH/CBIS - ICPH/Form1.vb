@@ -31,7 +31,7 @@
     End Sub
 
     Private Sub bill_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles bill.Click
-        pickDept("Billing/Accounting")
+        pickDept("Billing")
         LoginForm.Show()
         Me.Hide()
     End Sub
@@ -40,5 +40,11 @@
         checkIfLegitCopy()
         fetchServices()
 
+    End Sub
+
+    Private Sub cash_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cash.Click
+        pickDept("Cashiering")
+        LoginForm.Show()
+        Me.Hide()
     End Sub
 End Class
