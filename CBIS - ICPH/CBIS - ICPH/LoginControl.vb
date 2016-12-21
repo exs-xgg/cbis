@@ -40,8 +40,8 @@ Module LoginControl
                     LaboratoryForm.Show()
                     LoginForm.Close()
                 Case "Pharmacy"
-                    PharmacyFrm.show()
-                    LoginForm.Close()
+                    'code here
+                    'LoginForm.Close()
                 Case "Billing"
                     'Billing.show()
                     'LoginForm.Close()
