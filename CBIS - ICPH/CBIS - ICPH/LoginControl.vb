@@ -29,7 +29,7 @@ Module LoginControl
     End Function
     Public Sub getCreds(ByVal username As String, ByVal pw As String)
         'QUERY HERE
-        Dim deptQry As String = "Laboratory"
+        Dim deptQry As String = "Cashiering"
         If pw = "haha" And (ifLocked(username)) Then
 
             MsgBox("Nice.")
@@ -42,9 +42,12 @@ Module LoginControl
                 Case "Pharmacy"
                     'code here
                     'LoginForm.Close()
-                Case "Billing/Accounting"
-                    'code here
+                Case "Billing"
+                    'Billing.show()
                     'LoginForm.Close()
+                Case "Cashiering"
+                    Cashiering.Show()
+                    LoginForm.Close()
                 Case "Stocks/Inventory"
                     'code here
                     'LoginForm.Close()

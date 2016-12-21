@@ -1,0 +1,47 @@
+C:\Users\RMX\AppData\Local\Temporary Projects\CBIS - ICPH\bin\Debug\CBIS - ICPH.exe
+C:\Users\RMX\AppData\Local\Temporary Projects\CBIS - ICPH\bin\Debug\CBIS - ICPH.pdb
+C:\Users\RMX\AppData\Local\Temporary Projects\CBIS - ICPH\bin\Debug\CBIS - ICPH.xml
+C:\Users\RMX\AppData\Local\Temporary Projects\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.Form1.resources
+C:\Users\RMX\AppData\Local\Temporary Projects\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.Resources.resources
+C:\Users\RMX\AppData\Local\Temporary Projects\CBIS - ICPH\obj\x86\Debug\CBIS - ICPH.vbproj.GenerateResource.Cache
+C:\Users\RMX\AppData\Local\Temporary Projects\CBIS - ICPH\obj\x86\Debug\CBIS - ICPH.exe
+C:\Users\RMX\AppData\Local\Temporary Projects\CBIS - ICPH\obj\x86\Debug\CBIS - ICPH.xml
+C:\Users\RMX\AppData\Local\Temporary Projects\CBIS - ICPH\obj\x86\Debug\CBIS - ICPH.pdb
+C:\Users\RMX\Documents\GitHub\cbis-icph\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS - ICPH.exe
+C:\Users\RMX\Documents\GitHub\cbis-icph\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS - ICPH.xml
+C:\Users\RMX\Documents\GitHub\cbis-icph\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS - ICPH.pdb
+C:\Users\RMX\Documents\GitHub\cbis-icph\CBIS - ICPH\CBIS - ICPH\bin\Debug\CBIS - ICPH.exe
+C:\Users\RMX\Documents\GitHub\cbis-icph\CBIS - ICPH\CBIS - ICPH\bin\Debug\CBIS - ICPH.pdb
+C:\Users\RMX\Documents\GitHub\cbis-icph\CBIS - ICPH\CBIS - ICPH\bin\Debug\CBIS - ICPH.xml
+C:\Users\RMX\Documents\GitHub\cbis-icph\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.Form1.resources
+C:\Users\RMX\Documents\GitHub\cbis-icph\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.LoginForm.resources
+C:\Users\RMX\Documents\GitHub\cbis-icph\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.Resources.resources
+C:\Users\RMX\Documents\GitHub\cbis-icph\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS - ICPH.vbproj.GenerateResource.Cache
+C:\Users\RMX\Documents\GitHub\cbis-icph\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.LaboratoryForm.resources
+C:\Users\RMX\Documents\GitHub\cbis-icph\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.LabNew.resources
+C:\Users\RMX\Documents\GitHub\cbis\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS - ICPH.exe
+C:\Users\RMX\Documents\GitHub\cbis\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS - ICPH.xml
+C:\Users\RMX\Documents\GitHub\cbis\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS - ICPH.pdb
+C:\Users\RMX\Documents\GitHub\cbis\CBIS - ICPH\CBIS - ICPH\bin\Debug\CBIS - ICPH.exe
+C:\Users\RMX\Documents\GitHub\cbis\CBIS - ICPH\CBIS - ICPH\bin\Debug\CBIS - ICPH.pdb
+C:\Users\RMX\Documents\GitHub\cbis\CBIS - ICPH\CBIS - ICPH\bin\Debug\CBIS - ICPH.xml
+C:\Users\RMX\Documents\GitHub\cbis\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.Cashiering.resources
+C:\Users\RMX\Documents\GitHub\cbis\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.Form1.resources
+C:\Users\RMX\Documents\GitHub\cbis\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.LabNew.resources
+C:\Users\RMX\Documents\GitHub\cbis\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.LaboratoryForm.resources
+C:\Users\RMX\Documents\GitHub\cbis\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.LabTrans.resources
+C:\Users\RMX\Documents\GitHub\cbis\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.LoginForm.resources
+C:\Users\RMX\Documents\GitHub\cbis\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.Resources.resources
+C:\Users\RMX\Documents\GitHub\cbis\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS - ICPH.vbproj.GenerateResource.Cache
+C:\Users\RMX\Desktop\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS - ICPH.exe
+C:\Users\RMX\Desktop\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS - ICPH.xml
+C:\Users\RMX\Desktop\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS - ICPH.pdb
+C:\Users\RMX\Desktop\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.Cashiering.resources
+C:\Users\RMX\Desktop\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.Form1.resources
+C:\Users\RMX\Desktop\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.LabNew.resources
+C:\Users\RMX\Desktop\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.LaboratoryForm.resources
+C:\Users\RMX\Desktop\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.LabTrans.resources
+C:\Users\RMX\Desktop\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.LoginForm.resources
+C:\Users\RMX\Desktop\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.Resources.resources
+C:\Users\RMX\Desktop\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS___ICPH.PharmacyFrm.resources
+C:\Users\RMX\Desktop\CBIS - ICPH\CBIS - ICPH\obj\x86\Debug\CBIS - ICPH.vbproj.GenerateResource.Cache
